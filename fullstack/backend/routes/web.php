@@ -1,0 +1,11 @@
+<?php
+
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PokemonController;
+
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::apiResource('pokemons', PokemonController::class);
+Route::get('types', [PokemonController::class, 'getTypes']);
