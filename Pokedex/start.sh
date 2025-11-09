@@ -14,8 +14,11 @@ if ! docker volume inspect shared_composer >/dev/null 2>&1; then
   docker volume create shared_composer
 fi
 
-docker run --rm  -v "$(pwd)/frontend:/app" -v "shared_pnpm:/shared_pnpm/" --entrypoint pnpm  idomi27/vue:26 install --dangerously-allow-all-builds
-
+docker run --rm  \
+  -v "$(pwd)/frontend:/app" \
+  -v "shared_pnpm:/shared_pnpm/" \
+  --entrypoint pnpm \
+  idomi27/vue:26 install --dangerously-allow-all-builds
 
 docker compose up -d
 

@@ -8,10 +8,4 @@
         "blade.php": "html"
     },
     "telemetry.telemetryLevel": "off",
-    "github.copilot.enable": {
-        "*": false,
-        "plaintext": false,
-        "markdown": false,
-        "scminput": false
-    },
 }

@@ -8,7 +8,7 @@ import {
 } from '@components/ui/navigation-menu'
 import { Sheet, SheetContent, SheetTrigger } from '@components/ui/sheet'
 
-const title = import.meta.env.VITE_APP_NAME
+const title = import.meta.env.VITE_TITLE
 
 const links = [
   {

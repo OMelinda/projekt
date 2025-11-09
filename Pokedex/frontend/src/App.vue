@@ -1,12 +1,12 @@
+<script setup>
+import PokedexApp from './components/PokedexApp.vue'
+</script>
+
 <template>
   <div id="app">
     <PokedexApp />
   </div>
 </template>
-
-<script setup>
-import PokedexApp from './components/PokedexApp.vue'
-</script>
 
 <style>
 * {

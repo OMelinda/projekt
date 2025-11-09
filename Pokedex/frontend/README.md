@@ -1,10 +1,10 @@
-# Vue alap | 26
+# Vue alap | 2024.1
 
 > Az alap tartalmaz minden olyan csomagot amely az órai feladatok elkészítéséhez szükséges.
 
 ## Tartalom
 
-- [Vue alap | 26](#vue-alap-26)
+- [Vue alap | 2024.1](#vue-alap-20241)
   - [Tartalom](#tartalom)
   - [Node és a Vite kezelése](#node-és-a-vite-kezelése)
     - [Telepítés](#telepítés)
@@ -68,7 +68,7 @@ pnpm preview
 - `test`: Unit tesztek
 - `utils`: Kiegészítű scriptek, pl.: Axios
 
-## Dokumentációk
+## Dokumnetációk
 
 - Vite.js: [https://vite.dev](https://vite.dev)
 - Vue.js: [https://vuejs.org](https://vuejs.org)
@@ -77,4 +77,4 @@ pnpm preview
 - Pinia: [https://pinia.vuejs.org](https://pinia.vuejs.org)
 - FormKit: [https://formkit.com/](https://formkit.com/)
 - TailwindCSS: [https://tailwindcss.com](https://tailwindcss.com)
-- Shadcn/vue: [https://www.shadcn-vue.com/](https://www.shadcn-vue.com/)# njit-frontend
+- Shadcn/vue: [https://www.shadcn-vue.com/](https://www.shadcn-vue.com/)
